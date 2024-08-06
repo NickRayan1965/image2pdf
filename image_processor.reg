@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\ProcesarComoPDF]
+@="🖼️➡️📄 Procesar como PDF"
+"MultiSelectModel"="Player"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\ProcesarComoPDF\command]
+@="wscript \"C:\\ImageTools\\contextual_menu_option_script.vbs\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ProcesarComoPDF]
+@="🖼️➡️📄 Procesar como PDF"
+"MultiSelectModel"="Player"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ProcesarComoPDF\command]
+@="wscript \"C:\\ImageTools\\contextual_menu_option_script.vbs\" \"%1\""
