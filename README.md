@@ -13,6 +13,11 @@
 
 ¡Simplifica la gestión de tus imágenes y crea documentos PDF impresionantes con facilidad!
 
+## Repositorios Relacionados
+
+- **[Repositorio Backend](https://github.com/NickRayan1965/image2pdf_backend)**: Api que usa Image2PDF para los servicios de compresión y conversión en documentos pdf de imagenes.
+- **[Repositorio Frontend](https://github.com/NickRayan1965/image2pdf_frontend)**: Interfaz de usuario para interactuar con la API de Image2PDF Backend.
+
 ## Instalación
 
 # Guía de Instalación y Configuración
