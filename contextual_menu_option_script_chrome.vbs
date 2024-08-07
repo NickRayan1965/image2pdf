@@ -49,7 +49,7 @@ End Function
 Function OpenChrome(url)
     Dim shell, command
     Set shell = CreateObject("WScript.Shell")
-    command = "powershell.exe -Command Start-Process 'brave.exe' '" & url & "'"
+    command = "powershell.exe -Command Start-Process 'chrome.exe' '" & url & "'"
     shell.Run command
 End Function
 Function DeleteFile(fileName)
