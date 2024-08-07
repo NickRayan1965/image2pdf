@@ -1,3 +1,20 @@
+# IMAGE2PDF
+
+**Image2PDF** es una herramienta práctica que agrega una opción al menú contextual de imágenes para convertir rápidamente tus imágenes en documentos PDF. Con esta aplicación, puedes:
+
+- **Organizar Imágenes**: 
+  - Elige cómo se presentarán las imágenes en el PDF (9x por página, 4x por página, o diseño personalizado).
+  
+- **Optimizar Imágenes**:
+  - Reduce el tamaño de las imágenes pesadas para asegurar una carga rápida y una calidad óptima en el PDF final.
+
+- **Acceso Rápido**:
+  - Procesa y convierte imágenes directamente desde el menú contextual del explorador.
+
+¡Simplifica la gestión de tus imágenes y crea documentos PDF impresionantes con facilidad!
+
+## Instalación
+
 # Guía de Instalación y Configuración
 
 Este documento proporciona instrucciones detalladas para configurar el entorno necesario para ejecutar el proyecto. Asegúrate de seguir cada paso cuidadosamente para garantizar que el sistema funcione correctamente.
