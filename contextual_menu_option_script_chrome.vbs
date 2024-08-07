@@ -53,7 +53,9 @@ Function OpenChrome(url)
     shell.Run command
 End Function
 Function DeleteFile(fileName)
-  fso.DeleteFile(fileName)
+  If fso.FileExists(fileName) Then
+    fso.DeleteFile(fileName)
+  End If
 End Function
 imagePath = WScript.Arguments(0)
 tempPath = "C:\ImageTools"
@@ -94,6 +96,7 @@ If Not fso.FileExists(tempFileName) Then
     newValue = ReadTxt(tempFileName)
   Wend
   DeleteFile(tempFileName)
+  DeleteFile(lockFile)
   queryParamEncode = URLEncode(newValue)
   OpenChrome("http://localhost:8080?test=1&imagePaths="  + queryParamEncode)
 Else
